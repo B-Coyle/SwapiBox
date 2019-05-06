@@ -59,9 +59,3 @@ export default class VehicleContainer extends Component {
     );
   }
 }
-
-VehicleContainer.propTypes = {
-  Model: PropTypes.string,
-  Class: PropTypes.string,
-  Passengers: PropTypes.number
-}

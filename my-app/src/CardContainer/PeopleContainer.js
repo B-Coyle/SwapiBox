@@ -70,9 +70,7 @@ export default class PeopleContainer extends Component{
 
 
 PeopleContainer.propTypes = {
-  Name: PropTypes.string,
-  Homeworld: PropTypes.string,
-  Species: PropTypes.string,
-  Climate: PropTypes.string,
+  people: PropTypes.array,
+  error: PropTypes.string,
   loading: PropTypes.bool
 };

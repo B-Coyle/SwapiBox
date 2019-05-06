@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
+import PropTypes from 'prop-types';
 import Header from '../Header/Header.js';
 import Crawl from '../Crawl/Crawl.js';
 import {fetchMovie} from '../ApiCall/apiCalls.js';
@@ -63,4 +64,10 @@ export default class App extends Component{
         )
     }
 }
+
+App.propTypes = {
+    allFilms: PropTypes.array,
+    randomFilm: PropTypes.object,
+    skipCrawl: PropTypes.bool
+  };
 

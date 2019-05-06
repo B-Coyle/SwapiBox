@@ -1,8 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import { fetchMovie, fetchPeople, fetchHomeworld, fetchResidents } from '../ApiCall/apiCalls.js';
-
-
 import { isMainThread } from 'worker_threads';
 
 describe('apiCalls', () => {
