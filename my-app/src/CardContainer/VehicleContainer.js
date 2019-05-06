@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import Card from "../Card/Card";
-import { fetchMaster } from "../ApiCall/apiCalls.js";
+import React, { Component } from 'react';
+import Card from '../Card/Card';
+import { fetchMaster } from '../ApiCall/apiCalls.js';
 import './Container.scss'
 const uuidv4 = require("uuid/v4");
 
-class VehicleContainer extends Component {
+export default class VehicleContainer extends Component {
   constructor() {
     super();
     this.state = {
       vehicles: [],
       error: "",
-      isLoading: false
+      loading: false
     };
   }
 
   componentDidMount() {
     this.setState({ 
-      isLoading: true 
+      loading: true 
     });
 
     this.setVehicles();
@@ -37,7 +37,7 @@ class VehicleContainer extends Component {
     });
     this.setState({ 
       vehicles: updatedVehicles, 
-      isLoading: false 
+      loading: false 
     });
   };
 
@@ -53,10 +53,9 @@ class VehicleContainer extends Component {
     );
     return (
       <section className="cardContainer vehiclesContainer">
-        {this.state.isLoading ? loadingMessage : vehiclesCards}
+        {this.state.loading ? loadingMessage : vehiclesCards}
       </section>
     );
   }
 }
 
-export default VehicleContainer;

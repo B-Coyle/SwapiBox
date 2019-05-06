@@ -1,31 +1,31 @@
-import React, { Component } from "react";
-import Card from "../Card/Card";
+import React, { Component } from 'react';
+import Card from '../Card/Card';
 import {
   fetchMaster,
   fetchResidents
-} from "../ApiCall/apiCalls.js";
+} from '../ApiCall/apiCalls.js';
 const uuidv4 = require("uuid/v4");
 
-class PlanetsContainer extends Component {
+export default class PlanetsContainer extends Component {
   constructor() {
     super();
     this.state = {
       planets: [],
       error: "",
-      isLoading: false
+      loading: false
     };
   }
 
   componentDidMount() {
     this.setState({ 
-      isLoading: true 
+      loading: true 
     });
 
     this.setPlanets();
   }
 
   setPlanets = () => {
-    fetchMaster('planets')
+    fetchMaster("planets")
       .then(data => fetchResidents(data.results))
       .then(planets => this.formatPlanet(planets));
   };
@@ -42,7 +42,7 @@ class PlanetsContainer extends Component {
     });
     this.setState({ 
       planets: updatedPlanets, 
-      isLoading: false 
+      loading: false 
     });
   };
 
@@ -58,10 +58,9 @@ class PlanetsContainer extends Component {
     );
     return (
       <section className="cardContainer planetContainer">
-        {this.state.isLoading ? loadingMessage : planetCards}
+        {this.state.loading ? loadingMessage : planetCards}
       </section>
     );
   }
 }
 
-export default PlanetsContainer;

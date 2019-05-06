@@ -5,19 +5,19 @@ import './Container.scss'
 
 const uuidv4 = require("uuid/v4");
 
-class PeopleContainer extends Component{
+export default class PeopleContainer extends Component{
     constructor() {
         super()
         this.state= {
             people: [],
             error: '',
-            isLoading: false
+            loading: false
         }
     }
 
     componentDidMount() {
         this.setState({
-          isLoading: true
+          loading: true
         });
 
         this.getPeople();
@@ -39,7 +39,7 @@ class PeopleContainer extends Component{
 
         this.setState({ 
           people: updatedPeople, 
-          isLoading: false 
+          loading: false 
         });
         
       }; 
@@ -49,7 +49,7 @@ class PeopleContainer extends Component{
           <Card 
             key={person.key}
             data={person}
-            category='person'
+            category="person"
           />
         )
     
@@ -60,12 +60,10 @@ class PeopleContainer extends Component{
         );
         return (
           <section className="cardContainer">
-            {this.state.isLoading 
+            {this.state.loading 
               ? loadingMessage
               : peopleCards}
           </section>
         );
       }
     }
-    
-    export default PeopleContainer;

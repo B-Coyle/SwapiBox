@@ -9,7 +9,7 @@ describe('PeopleContainer', () => {
     const defaultState = {
         people: [],
         error: "",
-        isLoading: true
+        loading: true
     };
     
       beforeEach(()=> {

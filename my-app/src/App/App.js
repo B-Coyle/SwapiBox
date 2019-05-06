@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import './App.scss';
 import Header from '../Header/Header.js';
-import PropTypes from 'prop-types';
 import Crawl from '../Crawl/Crawl.js';
 import {fetchMovie} from '../ApiCall/apiCalls.js';
 import MainContainer from '../MainContainer/MainContainer.js';
 
-class App extends Component{
+export default class App extends Component{
     constructor(){
         super()
         this.state ={
@@ -65,4 +64,3 @@ class App extends Component{
     }
 }
 
-export default App;
