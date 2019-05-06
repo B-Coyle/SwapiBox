@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../Card/Card';
+import PropTypes from 'prop-types';
 import { fetchMaster } from '../ApiCall/apiCalls.js';
 import './Container.scss'
 const uuidv4 = require("uuid/v4");
@@ -59,3 +60,8 @@ export default class VehicleContainer extends Component {
   }
 }
 
+VehicleContainer.propTypes = {
+  Model: PropTypes.string,
+  Class: PropTypes.string,
+  Passengers: PropTypes.number
+}

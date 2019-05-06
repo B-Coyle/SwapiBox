@@ -76,14 +76,17 @@ export default class Card extends Component {
 
 
 Card.propTypes = {
+  //vehicle
   Model: PropTypes.string,
   Class: PropTypes.string,
-  Passengers: PropTypes.string,
+  Passengers: PropTypes.number,
+  //people
   Homeworld: PropTypes.string,
   Species: PropTypes.string,
   Climate: PropTypes.string,
+  //planets
   Name: PropTypes.string,
-  Population: PropTypes.string,
+  Population: PropTypes.number,
   Residents: PropTypes.string,
   Terrain: PropTypes.string,
   Favorited: PropTypes.bool,
