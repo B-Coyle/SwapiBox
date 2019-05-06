@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import './Header.scss'
 
 export default class Header extends Component{
-    constructor(){
-        super()
-    }
-    
     render(){
         return(
             <header className="mainHeader">
