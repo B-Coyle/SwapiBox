@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {fetchPeople, fetchHomeworld, fetchSpecies} from '../ApiCall/apiCalls.js';
 import Card from '../Card/Card.js';
-import './Container.scss'
+import './Container.scss';
+import PropTypes from 'prop-types';
+
 
 const uuidv4 = require("uuid/v4");
 
@@ -60,10 +62,17 @@ export default class PeopleContainer extends Component{
         );
         return (
           <section className="cardContainer">
-            {this.state.loading 
-              ? loadingMessage
-              : peopleCards}
+            {this.state.loading ? loadingMessage : peopleCards}
           </section>
         );
       }
     }
+
+
+PeopleContainer.propTypes = {
+  Name: PropTypes.string,
+  Homeworld: PropTypes.string,
+  Species: PropTypes.string,
+  Climate: PropTypes.string,
+  loading: PropTypes.bool
+};

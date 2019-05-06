@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 import {
   fetchMaster,
@@ -6,7 +7,8 @@ import {
 } from '../ApiCall/apiCalls.js';
 const uuidv4 = require("uuid/v4");
 
-export default class PlanetsContainer extends Component {
+
+export default class PlanetContainer extends Component {
   constructor() {
     super();
     this.state = {
@@ -64,3 +66,10 @@ export default class PlanetsContainer extends Component {
   }
 }
 
+
+PlanetContainer.propTypes = {
+  name: PropTypes.string,
+  population: PropTypes.number,
+  residents: PropTypes.string,
+  terrain: PropTypes.string,
+};
