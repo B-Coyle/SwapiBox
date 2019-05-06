@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import  Button from '../Button/Button.js';
 import PeopleContainer from '../CardContainer/PeopleContainer.js';
 import PlanetContainer from '../CardContainer/PlanetContainer.js';
 import VehicleContainer from '../CardContainer/VehicleContainer.js';
 
-class MainContainer extends Component {
+export default class MainContainer extends Component {
   constructor() {
     super()
     this.state = {
@@ -57,12 +57,10 @@ class MainContainer extends Component {
     
 
     return (
-      <main className="Main">
+      <main className="main">
         {showButtons && buttonContainer}
         {showCards && cardContainer}
       </main>
     );
   }
 }
-
-export default MainContainer;

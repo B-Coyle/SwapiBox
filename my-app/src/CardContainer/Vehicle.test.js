@@ -9,7 +9,7 @@ describe('VehicleContainer', () => {
     const defaultState ={
             vehicles: [],
             error: "",
-            isLoading: false
+            loading: false
           }
     beforeEach(()=> {
     wrapper = shallow(<VehicleContainer/>);

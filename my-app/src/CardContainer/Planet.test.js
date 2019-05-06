@@ -9,7 +9,7 @@ describe('PlanetContainer', () => {
     const defaultState ={
             planets: [],
             error: "",
-            isLoading: false
+            loading: false
           }
     beforeEach(()=> {
     wrapper = shallow(<PlanetContainer/>);

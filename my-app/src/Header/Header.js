@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Header.scss'
 
-class Header extends Component{
+export default class Header extends Component{
     constructor(){
         super()
     }
@@ -18,4 +18,3 @@ class Header extends Component{
     }
 }
 
-export default Header;

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import './Card.scss';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const uuidv4 = require("uuid/v4");
 
-class Card extends Component {
+export default class Card extends Component {
   constructor() {
     super()
     this.state = {
@@ -14,16 +14,16 @@ class Card extends Component {
 
   formatData = (data) => {
     let dataKeys = Object.keys(data)
-      .filter(key => key !== 'key' && key !== 'name');
+      .filter(key => key !== "key" && key !== "name");
     return dataKeys.map(key => {
-      if (key === 'residents'){
+      if (key === "residents"){
         return (
           <li key={uuidv4()}>
             Residents:
             <ul>{this.formatResidents(data[key])}</ul>
           </li>
         );
-      } else if (key === 'vehicleClass'){
+      } else if (key === "vehicleClass"){
         return (
           <li key={uuidv4()}>
             Class:
@@ -74,7 +74,6 @@ class Card extends Component {
   }
 }
 
-export default Card;
 
 Card.propTypes = {
   Model: PropTypes.string,
