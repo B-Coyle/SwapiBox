@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanetContainer should match the snapshot with all data passed in 1`] = `
+<section
+  className="cardContainer planetContainer"
+>
+  <div
+    className="loadingMessage"
+  >
+    <p>
+      Information loading. Please Hold...
+    </p>
+  </div>
+</section>
+`;

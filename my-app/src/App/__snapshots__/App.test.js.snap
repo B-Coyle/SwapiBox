@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches the snapshot 1`] = `
+<article
+  className="App mainBody"
+>
+  <div
+    className="headerContainer"
+  >
+    <Header />
+  </div>
+  <div
+    className="crawlContainer"
+  >
+    <MyCrawlComponent
+      randomFilm={Object {}}
+    />
+    <input
+      className="button skipBtn"
+      onClick={[Function]}
+      type="button"
+      value="skip"
+    />
+  </div>
+</article>
+`;

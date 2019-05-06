@@ -1,0 +1,8 @@
+.App {
+    background-image: url('./Images/backgroundGalaxy.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    margin-bottom: 50px;
+}

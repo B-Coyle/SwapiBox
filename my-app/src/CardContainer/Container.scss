@@ -1,0 +1,18 @@
+.cardContainer{
+    background-color:hsla(256, 20%, 42%, .8); 
+    border: solid 2px black; 
+    position: fixed;  
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.loadingMessage{
+    display: flex;
+    justify-content: center;
+    color: #DBAe85;
+    font-size: 25pt;
+}
+
+

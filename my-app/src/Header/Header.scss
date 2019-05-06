@@ -1,0 +1,55 @@
+.mainHeader{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    background-color:hsla(256, 20%, 42%, .8); 
+    border: solid 10px black; 
+    position: fixed;  
+    z-index: 2;
+    grid-template-areas: 
+    "mainTitle icon button"
+}
+
+.jediIcon{
+    grid-area: icon;
+    height: 200px;
+    opacity: 0.5;
+
+}
+
+.title{
+    grid-area: mainTitle;
+    color: #ffd700;
+    font-size: 45pt;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    margin: 0;
+    padding: 0;
+    font-size: 25pt;
+}
+
+.favBtn{
+    grid-area: button;
+    background-color: #36454f;
+    color: #DBAe85;
+    box-shadow: 5px 2px #b4b4b4;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 200px;
+    margin: 20px;
+    height: 100px;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.favBtn:hover{
+    background-color: #061283;
+    color: #fff;
+}
+
+.skipBtn{
+    position: absolute;
+    z-index: 2;
+}

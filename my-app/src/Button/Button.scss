@@ -1,0 +1,24 @@
+.mainBtns{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.button{
+    background-color: #36454f;
+    color: #DBAe85;
+    box-shadow: 5px 2px #b4b4b4;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 200px;
+    margin: 20px;
+    height: 100px;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: #061283;
+    color: #fff
+}

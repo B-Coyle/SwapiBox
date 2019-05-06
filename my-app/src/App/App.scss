@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+}
+.mainBody {
+  color: #fff;
+  margin: 0;
+  display: grid;
+  position: relative;
+  grid-template-areas: 
+  "header header header"
+  "main main main"
+}
+.buttonContainer{
+  grid-area: nav;
+}
+
+.crawlContainer{
+  grid-area: main;
+}
+
+.mainCardArea{
+  grid-area: main;
+}
