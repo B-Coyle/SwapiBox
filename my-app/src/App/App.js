@@ -65,9 +65,9 @@ export default class App extends Component{
     }
 }
 
-App.propTypes = {
-    allFilms: PropTypes.array,
-    randomFilm: PropTypes.object,
-    skipCrawl: PropTypes.bool
-  };
+// App.propTypes = {
+//     allFilms: PropTypes.array,
+//     randomFilm: PropTypes.object,
+//     skipCrawl: PropTypes.bool
+//   };
 

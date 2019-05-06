@@ -9,7 +9,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
   </h3>
   <ul>
     <li
-      key="a419cccb-5c77-47dc-bd37-126515d7ad34"
+      key="0f054bcd-b237-46a2-9fda-32459b84ad53"
     >
       H
       e
@@ -21,7 +21,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       172
     </li>
     <li
-      key="80ea2d41-250b-470f-acf5-70a073c29773"
+      key="2bae18a5-1b12-4f24-beb3-594335a3dc99"
     >
       M
       a
@@ -31,7 +31,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       77
     </li>
     <li
-      key="5d2df254-fea3-4396-a35a-bd21c72c60a4"
+      key="34a554cf-afd3-4d3b-8fd8-79fa823e2a3b"
     >
       H
       a
@@ -47,7 +47,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       blond
     </li>
     <li
-      key="013552ef-f79c-4f1f-9346-78b358e231b3"
+      key="10d298b8-bfea-4df7-bbdf-c810510fbd0c"
     >
       S
       k
@@ -63,7 +63,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       fair
     </li>
     <li
-      key="a216044a-988b-4488-9712-9d6c621e7386"
+      key="d97c71db-6dcd-415f-952a-fefbb3be2cf0"
     >
       E
       y
@@ -78,7 +78,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       blue
     </li>
     <li
-      key="39274bcd-4071-4725-a422-9f6c34e8ef29"
+      key="b859c832-c505-4912-a14c-baf49fe2c9ba"
     >
       B
       i
@@ -94,7 +94,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       19BBY
     </li>
     <li
-      key="d23a3bd2-f1f2-4001-9288-0c6febfb3701"
+      key="113b5171-6181-4235-b5c7-c0bf72ec2877"
     >
       G
       e
@@ -106,7 +106,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       male
     </li>
     <li
-      key="139a4826-f518-4c8a-b21a-6663ca73b6e7"
+      key="0429a6de-7ae8-4288-8b30-a36ab1e5be3a"
     >
       H
       o
@@ -121,7 +121,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       https://swapi.co/api/planets/1/
     </li>
     <li
-      key="acf9fef8-c87c-4f88-ae85-7a938364ad4b"
+      key="593fb6d5-cafc-4876-bccc-73ecef0fc398"
     >
       F
       i
@@ -136,7 +136,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       https://swapi.co/api/films/7/
     </li>
     <li
-      key="37922abf-e2f7-4d18-b999-359755df64ef"
+      key="e5aa88df-b067-40ae-8df2-abce69dd07f7"
     >
       S
       p
@@ -149,7 +149,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       https://swapi.co/api/species/1/
     </li>
     <li
-      key="11738917-9aa0-458c-8237-3a90c7139acd"
+      key="cdda2ee5-15b5-42d1-a966-e02f53c1d00b"
     >
       V
       e
@@ -164,7 +164,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       https://swapi.co/api/vehicles/30/
     </li>
     <li
-      key="4b13fc26-f6e9-4a61-abd2-0c52df8d083e"
+      key="0980d543-c0f7-4528-a41b-924adc0a2ac0"
     >
       S
       t
@@ -180,7 +180,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       https://swapi.co/api/starships/22/
     </li>
     <li
-      key="ff7aa60c-a8f9-452e-9b8d-2e63eaf2716e"
+      key="192af763-8186-4c0d-8053-19b56d380fac"
     >
       C
       r
@@ -193,7 +193,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       2014-12-09T13:50:51.644000Z
     </li>
     <li
-      key="e68511bc-88ff-4e03-b5bb-c59476e55862"
+      key="cbc63e4b-3d66-437a-96ce-4276205fb28b"
     >
       E
       d
@@ -205,7 +205,7 @@ exports[`Card should match the snapshot with all data passed in 1`] = `
       2014-12-20T21:17:56.891000Z
     </li>
     <li
-      key="b4680819-5ab9-4564-8bb2-a9b95deb87c1"
+      key="1bfa9aaf-ad97-4d27-a26f-d313318a3bf2"
     >
       U
       r
