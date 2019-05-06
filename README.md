@@ -43,3 +43,18 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Screenshots
+Opening Crawl
+
+[![localhost-3000-4.png](https://i.postimg.cc/1zTNH0YR/localhost-3000-4.png)](https://postimg.cc/f3cLWdN1)
+
+Main application with data
+
+
+## Challenges and wins
+
+
+
+## Wireframe
+
+https://www.figma.com/file/V6CqtraZglqcwd8PuSsDzSt0/SwapiBox?node-id=0%3A1
