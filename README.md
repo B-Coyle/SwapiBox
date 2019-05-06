@@ -50,8 +50,21 @@ Opening Crawl
 
 Main application with data
 
+[![localhost-3000-6.png](https://i.postimg.cc/d3gHcT1J/localhost-3000-6.png)](https://postimg.cc/fSjjxymP)
+
 
 ## Challenges and wins
+Challenges:
+<ul>
+  <li>Fetching data through an API with a variety of objects and arrays</li>
+  <li>Testing</li>
+ <ul>
+   
+Wins:
+<ul>
+  <li>New techniques used such as spread operators, switch statements, async/await testing</li>  
+  <li>More comfortable using React, jest, enzyme, css and html</li>  
+<ul>
 
 
 
