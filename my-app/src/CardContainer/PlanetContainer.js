@@ -66,10 +66,3 @@ export default class PlanetContainer extends Component {
   }
 }
 
-
-PlanetContainer.propTypes = {
-  name: PropTypes.string,
-  population: PropTypes.number,
-  residents: PropTypes.string,
-  terrain: PropTypes.string,
-};

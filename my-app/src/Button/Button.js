@@ -1,5 +1,7 @@
 import React from 'react';
 import './Button.scss';
+import PropTypes from 'prop-types';
+
 
 export default function CardContainer(props) {
   return (
@@ -9,4 +11,8 @@ export default function CardContainer(props) {
       <button className="button">vehicles</button>
     </section>
   );
+}
+
+CardContainer.propTypes = {
+selectCategory: PropTypes.func
 }
