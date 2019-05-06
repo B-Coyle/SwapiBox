@@ -2,7 +2,6 @@ import React from 'react';
 import './Button.scss';
 import PropTypes from 'prop-types';
 
-
 export default function CardContainer(props) {
   return (
     <section className="mainBtns" onClick={event => props.selectCategory(event)} >

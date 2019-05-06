@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {fetchPeople, fetchHomeworld, fetchSpecies} from '../ApiCall/apiCalls.js';
 import Card from '../Card/Card.js';
 import './Container.scss';
-import PropTypes from 'prop-types';
-
 
 const uuidv4 = require("uuid/v4");
 
@@ -68,9 +66,3 @@ export default class PeopleContainer extends Component{
       }
     }
 
-
-PeopleContainer.propTypes = {
-  people: PropTypes.array,
-  error: PropTypes.string,
-  loading: PropTypes.bool
-};
